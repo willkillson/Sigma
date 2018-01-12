@@ -35,6 +35,7 @@ Game::Game( MainWindow& wnd )
 	{
 		poos[i].Init(xDist(rng), yDist(rng), vDist(rng), vDist(rng));
 	}
+	end.Update(xDist(rng), yDist(rng));
 
 }
 
@@ -28441,6 +28442,8 @@ void Game::ComposeFrame()
 			DrawGameOver( 358,268 );
 		}
 		dude.Draw(gfx);
+		end.Draw(gfx);
+		end.UpdateColor();
 		for (int i = 0; i < this->_numPoos; i++)
 		{
 			if (!poos[i].IsEaten())

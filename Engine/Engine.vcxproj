@@ -145,8 +145,10 @@
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="End.h" />
     <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Location.h" />
     <ClInclude Include="MainWindow.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="SegmentMeter.h" />
     <ClInclude Include="Mouse.h" />
     <ClInclude Include="Poo.h" />
     <ClInclude Include="Resource.h" />
@@ -160,6 +162,7 @@
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Mouse.cpp" />
     <ClCompile Include="Poo.cpp" />
   </ItemGroup>

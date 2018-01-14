@@ -26,6 +26,8 @@
 #include "Poo.h"
 #include "Dude.h"
 #include "End.h"
+#include "Menu.h"
+#include "SegmentMeter.h"
 #include <random>
 
 class Game
@@ -40,10 +42,6 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
-	void DrawFace( int x,int y );
-	void DrawPoo( int x,int y );
-	void DrawGameOver( int x,int y );
-	void DrawTitleScreen( int x,int y );
 	/********************************/
 private:
 	MainWindow& wnd;
@@ -57,7 +55,8 @@ private:
 	std::uniform_int_distribution<int> vDist;
 	Dude dude;
 	End end;
-	static constexpr int _numPoos = 1000;
+	Menu menu;
+	static constexpr int _numPoos = 3;
 	Poo poos[_numPoos];
 	bool isStarted = false;
 	/********************************/

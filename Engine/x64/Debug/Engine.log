@@ -1,5 +1,79 @@
-﻿  Game.cpp
+﻿  compilation header save succeeded; see C:\Users\willk\Desktop\Sigma\Engine\FramebufferPS.shh
+  compilation header save succeeded; see C:\Users\willk\Desktop\Sigma\Engine\FramebufferVS.shh
+  Dude.cpp
+  DXErr.cpp
+  End.cpp
+  Game.cpp
+c:\users\willk\desktop\sigma\engine\location.h(12): warning C4091: 'typedef ': ignored on left of 'Location' when no variable is declared (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C2065: 'Segment': undeclared identifier (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C2923: 'std::vector': 'Segment' is not a valid template type argument for parameter '_Ty' (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(57): warning C4624: 'SegmentMeter': destructor was implicitly defined as deleted (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(16): error C2512: 'std::vector': no appropriate default constructor available (compiling source file Game.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector' (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &' (compiling source file Game.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>' (compiling source file Game.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): note: Conversion requires a second user-defined-conversion operator or constructor (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion) (compiling source file Game.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)' (compiling source file Game.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const' (compiling source file Game.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): note: while trying to match the argument list '(std::vector, int)' (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): error C2228: left of '.getLoc' must have class/struct/union (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &' (compiling source file Game.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>' (compiling source file Game.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): note: Conversion requires a second user-defined-conversion operator or constructor (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C2065: 'Segment': undeclared identifier (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C2146: syntax error: missing ';' before identifier 'newSeg' (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C3861: 'newSeg': identifier not found (compiling source file Game.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(48): error C2065: 'newSeg': undeclared identifier (compiling source file Game.cpp)
+  Graphics.cpp
+  Keyboard.cpp
   Main.cpp
   MainWindow.cpp
-  Engine.vcxproj -> C:\Users\willk\Desktop\New folder\Sigma\x64\Debug\Engine.exe
-  Engine.vcxproj -> C:\Users\willk\Desktop\New folder\Sigma\x64\Debug\Engine.pdb (Partial PDB)
+  Menu.cpp
+c:\users\willk\desktop\sigma\engine\location.h(12): warning C4091: 'typedef ': ignored on left of 'Location' when no variable is declared (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C2065: 'Segment': undeclared identifier (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C2923: 'std::vector': 'Segment' is not a valid template type argument for parameter '_Ty' (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(57): warning C4624: 'SegmentMeter': destructor was implicitly defined as deleted (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(16): error C2512: 'std::vector': no appropriate default constructor available (compiling source file Main.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector' (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &' (compiling source file Main.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>' (compiling source file Main.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): note: Conversion requires a second user-defined-conversion operator or constructor (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion) (compiling source file Main.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)' (compiling source file Main.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const' (compiling source file Main.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): note: while trying to match the argument list '(std::vector, int)' (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): error C2228: left of '.getLoc' must have class/struct/union (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &' (compiling source file Main.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>' (compiling source file Main.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): note: Conversion requires a second user-defined-conversion operator or constructor (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C2065: 'Segment': undeclared identifier (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C2146: syntax error: missing ';' before identifier 'newSeg' (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C3861: 'newSeg': identifier not found (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(48): error C2065: 'newSeg': undeclared identifier (compiling source file Main.cpp)
+c:\users\willk\desktop\sigma\engine\location.h(12): warning C4091: 'typedef ': ignored on left of 'Location' when no variable is declared (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C2065: 'Segment': undeclared identifier (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C2923: 'std::vector': 'Segment' is not a valid template type argument for parameter '_Ty' (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(52): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(57): warning C4624: 'SegmentMeter': destructor was implicitly defined as deleted (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(16): error C2512: 'std::vector': no appropriate default constructor available (compiling source file MainWindow.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector' (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &' (compiling source file MainWindow.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>' (compiling source file MainWindow.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(24): note: Conversion requires a second user-defined-conversion operator or constructor (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion) (compiling source file MainWindow.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)' (compiling source file MainWindow.cpp)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const' (compiling source file MainWindow.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): note: while trying to match the argument list '(std::vector, int)' (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(30): error C2228: left of '.getLoc' must have class/struct/union (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &' (compiling source file MainWindow.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>' (compiling source file MainWindow.cpp)
+  c:\users\willk\desktop\sigma\engine\segmentmeter.h(41): note: Conversion requires a second user-defined-conversion operator or constructor (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C2065: 'Segment': undeclared identifier (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C2146: syntax error: missing ';' before identifier 'newSeg' (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(47): error C3861: 'newSeg': identifier not found (compiling source file MainWindow.cpp)
+c:\users\willk\desktop\sigma\engine\segmentmeter.h(48): error C2065: 'newSeg': undeclared identifier (compiling source file MainWindow.cpp)
+  Mouse.cpp
+  Poo.cpp

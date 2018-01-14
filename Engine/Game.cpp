@@ -70,38 +70,40 @@ void Game::UpdateModel()
 }
 void Game::ComposeFrame()
 {
-	if( !isStarted )
-	{
-		this->menu.SetMenuState(0);
-		this->menu.SetMenuPos(325,211);
-		this->menu.Draw(gfx);
-	}
-	else
-	{
-		bool allEaten = true;
+	//if( !isStarted )
+	//{
+	//	this->menu.SetMenuState(0);
+	//	this->menu.SetMenuPos(325,211);
+	//	this->menu.Draw(gfx);
+	//}
+	//else
+	//{
+	//	bool allEaten = true;
 
-		for (int i = 0; i < this->_numPoos; i++)
-		{
-			allEaten = allEaten & poos[i].IsEaten();
-		}
-		if(allEaten)
-		{
-			this->menu.SetMenuState(2);
-			this->menu.SetMenuPos(325, 211);
-			this->menu.Draw(gfx);
-		}
-		dude.Draw(gfx);
-		end.Draw(gfx);
-		end.UpdateColor();
-		for (int i = 0; i < this->_numPoos; i++)
-		{
-			if (!poos[i].IsEaten())
-			{
-				poos[i].Draw(gfx);
-			}
-		}
-	}
-	SegmentMeter meter(0, 0);
-	Segment p(10, 10);
-	meter._meter.push_back(p);
+	//	for (int i = 0; i < this->_numPoos; i++)
+	//	{
+	//		allEaten = allEaten & poos[i].IsEaten();
+	//	}
+	//	if(allEaten)
+	//	{
+	//		this->menu.SetMenuState(2);
+	//		this->menu.SetMenuPos(325, 211);
+	//		this->menu.Draw(gfx);
+	//	}
+	//	dude.Draw(gfx);
+	//	end.Draw(gfx);
+	//	end.UpdateColor();
+	//	for (int i = 0; i < this->_numPoos; i++)
+	//	{
+	//		if (!poos[i].IsEaten())
+	//		{
+	//			poos[i].Draw(gfx);
+	//		}
+	//	}
+	//}
+
+
+	SegmentMeter meter(0, 0,1,10);
+	meter.addone();
+	meter.Draw(gfx);
 }
